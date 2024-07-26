@@ -1,5 +1,5 @@
 import React from "react";
-import info_icon from "../../../assets/images/information-fill.png";
+import info_icon from "/images/information-fill.png";
 
 function AddWorkExperienceModal() {
   return (

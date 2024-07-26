@@ -1,17 +1,17 @@
 export const NAV_LINKS = [
   {
     id: 0,
-    img: "src/assets/images/Briefcase-dark.png",
+    img: "/images/Briefcase-dark.png",
     title: "Jobs",
   },
   {
     id: 1,
-    img: "src/assets/images/User-star.png",
+    img: "/images/User-star.png",
     title: "Mentorship",
   },
   {
     id: 2,
-    img: "src/assets/images/Training.png",
+    img: "/images/Training.png",
     title: "Trainings",
   },
 ];

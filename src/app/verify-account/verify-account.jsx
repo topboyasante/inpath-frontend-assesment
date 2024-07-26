@@ -1,5 +1,5 @@
 import React from "react";
-import page_img from "../../assets/images/account-verification.png";
+import page_img from "/images/account-verification.png";
 
 function VerifyAccount() {
   return (

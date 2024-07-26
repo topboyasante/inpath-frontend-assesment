@@ -1,5 +1,5 @@
 import React from "react";
-import page_img from "../../../assets/images/smiley-face.png";
+import page_img from "/images/smiley-face.png";
 import { PROFILE_STEPS } from "./steps.jsx";
 import Accordion from "./accordion-component";
 

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Logo from "../../../components/ui/logo";
 import { Link } from "react-router-dom";
 import { MdMenu } from "react-icons/md";
-import { NAV_LINKS, TAB_LINKS } from "./nav-links";
+import { NAV_LINKS, TAB_LINKS } from "./nav-links.jsx";
 import { cn } from "../../../lib/utils";
 
 function Navbar() {
@@ -40,8 +40,8 @@ function Navbar() {
           })}
         </div>
         <div className="flex items-center gap-5">
-          <Link to={`/sign-up`}>Log In</Link>
-          <Link to={`/sign-up`}>
+          <Link to={`/onboarding`}>Log In</Link>
+          <Link to={`/onboarding`}>
             <button className="ease-duration-200 bg-black text-white font-semibold px-4 py-2 rounded flex justify-center items-center gap-2 text-nowrap">
               <span>Sign Up</span>
             </button>

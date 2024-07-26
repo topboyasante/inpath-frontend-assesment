@@ -1,15 +1,15 @@
 import React from "react";
 import { CiSearch } from "react-icons/ci";
 import { GoArrowRight } from "react-icons/go";
-import circular_lines from "../../../assets/images/Frame.png";
-import yellow from "../../../assets/images/yellow.png";
-import red from "../../../assets/images/red.png";
-import woman from "../../../assets/images/woman.png";
-import Ellipse77 from "../../../assets/images/Ellipse 77.png";
-import Ellipse73 from "../../../assets/images/Ellipse 73.png";
-import Ellipse74 from "../../../assets/images/Ellipse 74.png";
-import Ellipse80 from "../../../assets/images/Ellipse 80.png";
-import Ellipse81 from "../../../assets/images/Ellipse 81.png";
+import circular_lines from "/images/Frame.png";
+import yellow from "/images/yellow.png";
+import red from "/images/red.png";
+import woman from "/images/woman.png";
+import Ellipse77 from "/images/Ellipse 77.png";
+import Ellipse73 from "/images/Ellipse 73.png";
+import Ellipse74 from "/images/Ellipse 74.png";
+import Ellipse80 from "/images/Ellipse 80.png";
+import Ellipse81 from "/images/Ellipse 81.png";
 
 function Hero() {
   return (
