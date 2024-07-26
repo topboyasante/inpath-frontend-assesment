@@ -3,6 +3,13 @@ import { CiSearch } from "react-icons/ci";
 import { GoArrowRight } from "react-icons/go";
 import circular_lines from "../../../assets/images/Frame.png";
 import yellow from "../../../assets/images/yellow.png";
+import red from "../../../assets/images/red.png";
+import woman from "../../../assets/images/woman.png";
+import Ellipse77 from "../../../assets/images/Ellipse 77.png";
+import Ellipse73 from "../../../assets/images/Ellipse 73.png";
+import Ellipse74 from "../../../assets/images/Ellipse 74.png";
+import Ellipse80 from "../../../assets/images/Ellipse 80.png";
+import Ellipse81 from "../../../assets/images/Ellipse 81.png";
 
 function Hero() {
   return (
@@ -10,8 +17,29 @@ function Hero() {
       <div className="absolute z-[1] right-0 bottom-0">
         <img src={circular_lines} alt="lines" className="w-72 h-72" />
       </div>
-      <div className="absolute z-[1] left-[20%] top-1/2">
-        <img src={yellow} alt="lines" className="w-16 h-16" />
+      <div className="absolute z-[1] left-[5%] lg:left-[20%] top-1/2">
+        <img src={yellow} alt="lines" className="w-16 h-16 object-contain" />
+      </div>
+      <div className="absolute z-[1] right-[20%] lg:right-[10%] top-20">
+        <img src={red} alt="lines" className="w-16 h-16 object-contain" />
+      </div>
+      <div className="absolute z-[1] left-[23%] bottom-0">
+        <img src={woman} alt="lines" className="w-16 h-16 object-contain" />
+      </div>
+      <div className="absolute z-[1] left-[50%] bottom-0">
+        <img src={Ellipse77} alt="lines" className="object-contain" />
+      </div>
+      <div className="absolute z-[1] left-[40%] bottom-5">
+        <img src={Ellipse73} alt="lines" className="object-contain" />
+      </div>
+      <div className="absolute z-[1] left-10 bottom-[20%]">
+        <img src={Ellipse80} alt="lines" className="object-contain" />
+      </div>
+      <div className="absolute z-[1] right-10 top-[30%]">
+        <img src={Ellipse81} alt="lines" className="object-contain" />
+      </div>
+      <div className="absolute z-[1] right-[18%] bottom-24">
+        <img src={Ellipse74} alt="lines" className="object-contain" />
       </div>
       <div className="absolute z-[2] flex w-full min-h-screen justify-center items-center">
         <div>

@@ -1,4 +1,5 @@
 import React from "react";
+import SingleImageDropzone from "./dropzone";
 
 function UploadResumeModal() {
   return (
@@ -11,9 +12,7 @@ function UploadResumeModal() {
           <p className="text-neutral-500">
             Format should be either .pdf, .docx, .doc
           </p>
-          <div className="border border-dashed h-12 p-2 rounded outline-none">
-            <input type="file" />
-          </div>
+          <SingleImageDropzone />
         </div>
         <div className="col-span-2 flex flex-col">
           <label htmlFor="job_title" className="text-black font-semibold">
@@ -22,14 +21,12 @@ function UploadResumeModal() {
           <p className="text-neutral-500">
             Format should be either .pdf, .docx, .doc
           </p>
-          <div className="border border-dashed h-12 p-2 rounded outline-none">
-            <input type="file" />
-          </div>
+          <SingleImageDropzone />
         </div>
         <div className="col-span-2">
           <div className="flex justify-end items-center">
-            <button className="ease-duration-200 bg-black text-white font-semibold px-4 py-2 rounded flex justify-center items-center gap-2 text-nowrap">
-              <span>Link NSS</span>
+            <button className="ease-duration-200 bg-[#e8e8e8] text-[#818181] font-semibold px-4 py-2 rounded flex justify-center items-center gap-2 text-nowrap">
+              <span>Save</span>
             </button>
           </div>
         </div>

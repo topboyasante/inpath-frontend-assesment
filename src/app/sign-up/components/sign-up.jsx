@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { IoEye, IoEyeOff } from "react-icons/io5";
 import { COUNTRIES } from "../../../constants/country-codes";
-import Flag from "react-world-flags";
 import { Link } from "react-router-dom";
 
 function SignUp() {

@@ -3,7 +3,6 @@ import { HiPlus, HiX } from "react-icons/hi";
 
 function Accordion({ id, img, title, description, modal, modal_title }) {
   const [isOpen, setIsOpen] = useState(false);
-  console.log(isOpen);
   return (
     <div key={id} className="flex gap-3 items-start my-5 w-full">
       <img src={img} alt={title} className="w-6 h-6" />

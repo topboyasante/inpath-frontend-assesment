@@ -48,6 +48,7 @@ function CreateProfile() {
             {PROFILE_STEPS.map((step) => {
               return (
                 <Accordion
+                  key={step.id}
                   id={step.id}
                   img={step.img}
                   title={step.title}
