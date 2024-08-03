@@ -46,7 +46,7 @@ function Onboarding() {
         disabled={account == null}
         className="ease-duration-200 bg-black disabled:bg-neutral-200 text-white disabled:text-gray-500 font-semibold w-full px-4 py-2 rounded"
       >
-        <Link to={`/sign-up`} className=" flex justify-center items-center gap-2">
+        <Link to={`/professional-career`} className=" flex justify-center items-center gap-2">
           <span>Next</span>
           <GoArrowRight />
         </Link>

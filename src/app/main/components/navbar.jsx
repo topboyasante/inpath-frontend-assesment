@@ -40,7 +40,7 @@ function Navbar() {
           })}
         </div>
         <div className="flex items-center gap-5">
-          <Link to={`/onboarding`}>Log In</Link>
+          <Link to={`/login`}>Log In</Link>
           <Link to={`/onboarding`}>
             <button className="ease-duration-200 bg-black text-white font-semibold px-4 py-2 rounded flex justify-center items-center gap-2 text-nowrap">
               <span>Sign Up</span>

@@ -102,7 +102,7 @@ function SignUp() {
         </form>
         <div className="my-5">
           <p>
-            Already signed up?
+            Already signed up? {" "}
             <span>
               <Link
                 to={"/login"}

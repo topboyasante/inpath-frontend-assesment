@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { CAREER_OPTIONS } from "./career";
 import { cn } from "../../../lib/utils";
+import { Link } from "react-router-dom";
 
 function ProfessionalCareer() {
   const [index, setIndex] = useState(null);
@@ -33,7 +34,12 @@ function ProfessionalCareer() {
           disabled={index === null}
           className="ease-duration-200 bg-black disabled:bg-neutral-200 text-white disabled:text-gray-500 font-semibold w-full px-4 py-2 rounded flex justify-center items-center gap-2"
         >
-          <span>Continue</span>
+          <Link
+            to={`/create-profile`}
+            className=" flex justify-center items-center gap-2 w-full"
+          >
+            <span>Continue</span>
+          </Link>
         </button>
       </div>
     </div>

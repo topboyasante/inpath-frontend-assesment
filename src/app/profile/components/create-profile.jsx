@@ -2,6 +2,7 @@ import React from "react";
 import page_img from "/images/smiley-face.png";
 import { PROFILE_STEPS } from "./steps.jsx";
 import Accordion from "./accordion-component";
+import { Link } from "react-router-dom";
 
 function CreateProfile() {
   return (
@@ -65,7 +66,12 @@ function CreateProfile() {
               <span>I'll do it later</span>
             </button>
             <button className="ease-duration-200 bg-neutral-200 text-gray-500 font-semibold w-full px-4 py-2 rounded flex justify-center items-center gap-2">
-              <span>Done</span>
+              <Link
+                to={`/sign-up`}
+                className=" flex justify-center items-center gap-2"
+              >
+                <span>Continue</span>
+              </Link>
             </button>
           </div>
         </div>

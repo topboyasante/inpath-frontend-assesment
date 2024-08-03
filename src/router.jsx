@@ -5,6 +5,7 @@ import VerifyPage from "./app/verify-account/page";
 import ProfessionalCareerPage from "./app/professional-career/page";
 import ProfilePage from "./app/profile/page";
 import HomePage from "./app/main/page";
+import SignInPage from "./app/sign-in/page";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/sign-up",
     element: <SignUpPage />,
+  },
+  {
+    path: "/login",
+    element: <SignInPage />,
   },
   {
     path: "/verify-account",
